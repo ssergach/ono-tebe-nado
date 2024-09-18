@@ -4,6 +4,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   width: 1052px;
 height: 105px;
+margin: 92px 24px 96px 24px;
 background-color: aqua;
 
 
@@ -11,12 +12,12 @@ background-color: aqua;
 }
 
 .header__menu {
-  display: flex;
+  
  
 }
 
 .header__links-list-item {
- 
+ display: inline;
 }
 
 .header__logo {
