@@ -1,1 +1,31 @@
 /* место для вашего кода */
+.header {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  width: 1052px;
+height: 105px;
+background-color: aqua;
+
+
+
+}
+
+.header__menu {
+  display: flex;
+ 
+}
+
+.header__links-list-item {
+ 
+}
+
+.header__logo {
+  display: block;
+  width: 148px;
+  height: 105px;
+}
+
+.header__logo-image {
+  display: block;
+  padding: 0 12.56px 7.37px 11.39px;
+}
