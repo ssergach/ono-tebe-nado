@@ -21,7 +21,6 @@
 .header__links-list-item {
   font-weight: 400;
   font-size: 18px;
-  line-height: 21.13px;
   letter-spacing: 0.01em;
   text-align: left;
 }
@@ -30,14 +29,19 @@
   list-style-type: none;
 }
 
+.header__link {
+text-decoration: none;  
+border-bottom: 1px #000 solid;
+}
+
 .header__link_active {
-  text-decoration: none;
+  border-bottom: none;
+  
 }
 
 .header__logo {
   display: block;
-  justify-self: center;
-  width: 148px;
+    width: 148px;
   height: 105px;
 }
 
@@ -152,14 +156,13 @@
 
 .lots {
   margin: 179px 24px 0 24px;
-  
 }
 
 .lots__heading {
-  font-size: 40px;
+  margin-left: 40px;
   font-weight: 700;
+  font-size: 40px;
   text-transform: uppercase;
-margin-left: 40px;
 }
 
 .lots__card-list {
@@ -171,30 +174,28 @@ margin-left: 40px;
   flex-grow: 1;
   width: 334px;
   height: 563px;
-  list-style-type: none;
   margin-top: 27px;
   color: #ffffff;
+  list-style-type: none;
 }
 
 .card-link {
-   text-decoration: none;
+  text-decoration: none;
 }
 
 .card {
+  position: relative;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  position: relative;
-width: 100%;
-height: 100%;
-background-position: center;
+  width: 100%;
+  height: 100%;
+  background-position: center;
   background-size: cover;
-  
 }
 
 .card_type_film {
   background-image: url(../images/card-lot-01.jpg);
- 
 }
 
 .card_type_book {
@@ -208,23 +209,120 @@ background-position: center;
 .card__title {
   z-index: 3;
   margin: 51px 40px 0 40px;
-  font-size: 22px;
   font-weight: 700;
-  text-transform: uppercase;
+  font-size: 22px;
   text-decoration: underline;
+  text-transform: uppercase;
 }
 
 .card__text {
   z-index: 3;
   margin: 0 40px 48px 40px;
-  font-size: 20px;
   font-weight: 400;
+  font-size: 20px;
 }
 
 .lots__look-more-link {
   display: block;
-  font-size: 20px;
-  font-weight: 400;
-  margin-left: 40px;
   margin-top: 30px;
-  }
+  margin-left: 40px;
+  font-weight: 400;
+  font-size: 20px;
+}
+
+.about {
+  display: grid;
+  grid-template-columns: 334px auto;
+  gap: 25px;
+  width: 1052px;
+  height: 575px;
+  margin-top: 146px;
+  margin-left: 24px;
+}
+
+.about__column {
+  display: flex;
+
+  flex-direction: column;
+  row-gap: 24px;
+}
+
+.about__logo {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 240px;
+  height: 240px;
+  margin-top: 35px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  background-color: black;
+}
+
+.about__logo-image {
+  width: 148px;
+  height: 114px;
+}
+
+.about__title {
+  margin-top: 136px;
+  padding-bottom: 76px;
+  font-weight: 700;
+  font-size: 40px;
+  text-transform: uppercase;
+}
+
+.about__text {
+  margin-right: 3px;
+  font-weight: 400;
+  font-size: 20px;
+  
+}
+
+.footer {
+  margin: 180px 50px 88px 50px;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+<!--    пока не пойму зачем это
+.footer__menu {
+  
+ 
+}
+
+.footer__menu-list {
+  
+}
+-->
+.footer__menu-list-item {
+  font-weight: 400;
+  font-size: 18px;
+  letter-spacing: 0.01em;
+  text-align: center; 
+  list-style-type: none;
+}
+
+.footer__menu-link {
+text-decoration: none;
+border-bottom: 1px #000 solid;
+}
+
+.footer__menu-link_active {
+    border-bottom: none;
+}
+
+.footer__social-list {
+  display: flex;
+  justify-content: end;
+  gap: 48px;
+
+  list-style-type: none;
+}
+
+
+
+.footer__social-icon {
+  width: 48px;
+  height: 48px;
+}
