@@ -90,7 +90,7 @@
   z-index: 3;
   display: flex;
   flex-direction: column;
-  gap: 25px;
+  gap: 18px;
   height: 355px;
   color: #ffffff;
   font-weight: 700;
@@ -281,7 +281,7 @@
 .footer {
   display: flex;
   justify-content: space-between;
-  
+  align-items: start;
   margin: 180px 50px 88px 50px;
 }
 /*    пока не пойму зачем это
