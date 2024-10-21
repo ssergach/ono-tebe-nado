@@ -2,7 +2,7 @@
 .header {
   display: grid;
   grid-template-columns: 454px 148px auto;
-   margin: 92px 24px 96px 24px;
+  margin: 92px 24px 96px 24px;
 }
 
 .header__menu {
@@ -28,18 +28,17 @@
 }
 
 .header__link {
-text-decoration: none;  
-border-bottom: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  text-decoration: none;
 }
 
 .header__link_active {
   border-bottom: none;
-  
 }
 
 .header__logo {
   display: block;
-    width: 148px;
+  width: 148px;
   height: 105px;
 }
 
@@ -66,7 +65,7 @@ border-bottom: 1px #000 solid;
   z-index: 1;
   display: flex;
   align-items: end;
-    min-height: 757px;
+  min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -85,13 +84,13 @@ border-bottom: 1px #000 solid;
 .cover__title {
   position: absolute;
   top: 165px;
+
+  right: 50px;
   left: 50px;
   z-index: 3;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  
-  right: 50px;
   height: 355px;
   color: #ffffff;
   font-weight: 700;
@@ -232,11 +231,11 @@ border-bottom: 1px #000 solid;
   display: grid;
   grid-template-columns: 334px auto;
   gap: 25px;
-  
+
   height: 575px;
   margin-top: 146px;
-  margin-left: 24px;
   margin-right: 24px;
+  margin-left: 24px;
 }
 
 .about__column {
@@ -276,13 +275,12 @@ border-bottom: 1px #000 solid;
   margin-right: 3px;
   font-weight: 400;
   font-size: 20px;
-  
 }
 
 .footer {
-  margin: 180px 50px 88px 50px;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
+  margin: 180px 50px 88px 50px;
 }
 /*    пока не пойму зачем это
 .footer__menu {
@@ -298,17 +296,17 @@ border-bottom: 1px #000 solid;
   font-weight: 400;
   font-size: 18px;
   letter-spacing: 0.01em;
-  text-align: center; 
+  text-align: center;
   list-style-type: none;
 }
 
 .footer__menu-link {
-text-decoration: none;
-border-bottom: 1px #000 solid;
+  border-bottom: 1px #000 solid;
+  text-decoration: none;
 }
 
 .footer__menu-link_active {
-    border-bottom: none;
+  border-bottom: none;
 }
 
 .footer__social-list {
@@ -318,8 +316,6 @@ border-bottom: 1px #000 solid;
 
   list-style-type: none;
 }
-
-
 
 .footer__social-icon {
   width: 48px;
