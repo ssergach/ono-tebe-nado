@@ -90,7 +90,8 @@
   z-index: 3;
   display: flex;
   flex-direction: column;
-  gap: 18px;
+  justify-content: space-between;
+  gap: 20px;
   height: 355px;
   color: #ffffff;
   font-weight: 700;
