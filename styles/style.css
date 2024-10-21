@@ -2,9 +2,7 @@
 .header {
   display: grid;
   grid-template-columns: 454px 148px auto;
-  width: 1052px;
-  height: 105px;
-  margin: 92px 24px 96px 24px;
+   margin: 92px 24px 96px 24px;
 }
 
 .header__menu {
@@ -53,14 +51,14 @@ border-bottom: 1px #000 solid;
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  line-height: 24.3px;
   letter-spacing: 0.01em;
   text-align: left;
 }
 
 .header__address {
-  justify-self: center;
+  justify-self: end;
   align-self: center;
+  margin-right: 25px;
 }
 
 .cover {
@@ -68,8 +66,7 @@ border-bottom: 1px #000 solid;
   z-index: 1;
   display: flex;
   align-items: end;
-  width: 1100px;
-  height: 757px;
+    min-height: 757px;
   background-image: url("../images/cover.jpg");
   background-position: center;
   background-size: cover;
@@ -93,7 +90,8 @@ border-bottom: 1px #000 solid;
   display: flex;
   flex-direction: column;
   gap: 20px;
-  width: 1000px;
+  
+  right: 50px;
   height: 355px;
   color: #ffffff;
   font-weight: 700;
@@ -234,10 +232,11 @@ border-bottom: 1px #000 solid;
   display: grid;
   grid-template-columns: 334px auto;
   gap: 25px;
-  width: 1052px;
+  
   height: 575px;
   margin-top: 146px;
   margin-left: 24px;
+  margin-right: 24px;
 }
 
 .about__column {
@@ -285,7 +284,7 @@ border-bottom: 1px #000 solid;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
 }
-<!--    пока не пойму зачем это
+/*    пока не пойму зачем это
 .footer__menu {
   
  
@@ -294,7 +293,7 @@ border-bottom: 1px #000 solid;
 .footer__menu-list {
   
 }
--->
+*/
 .footer__menu-list-item {
   font-weight: 400;
   font-size: 18px;
