@@ -6,10 +6,10 @@
 }
 
 .header__menu {
-  padding-right: 9px;
-  padding-top: 6px;
   justify-self: center;
   align-self: center;
+  padding-top: 6px;
+  padding-right: 9px;
 }
 
 .header__links-list {
@@ -52,10 +52,9 @@
   font-weight: 400;
   font-size: 18px;
   font-style: normal;
-  letter-spacing: 0.01em;
   line-height: 140%;
+  letter-spacing: 0.01em;
   text-align: left;
-  
 }
 
 .header__address {
@@ -88,13 +87,13 @@
 .cover__title {
   display: flex;
   flex-direction: column;
-   
+  padding-bottom: 126px;
+
   color: #ffffff;
   font-weight: 700;
   font-size: 100px;
   letter-spacing: 0.3em;
   text-transform: uppercase;
-  padding-bottom: 126px;
 }
 
 .aligned-text {
@@ -107,8 +106,8 @@
 }
 
 .aligned-text_right {
-  padding-top: 3px;
   align-self: flex-end;
+  padding-top: 3px;
 }
 
 .letter-spacing-extended {
@@ -124,7 +123,7 @@
   justify-content: space-between;
   align-items: center;
   width: 100%;
-  padding-bottom: 51px;  
+  padding-bottom: 51px;
   padding-left: 28px;
 }
 
@@ -138,7 +137,7 @@
 }
 
 .bet-button {
-    border: 1px solid #ffffff;
+  border: 1px solid #ffffff;
   padding: 12px 32px 11px 31px;
   color: #ffffff;
   font-family: Raleway, sans-serif;
@@ -146,7 +145,6 @@
   font-size: 22px;
   text-transform: uppercase;
   background-color: transparent;
-  
 }
 
 .lots {
@@ -284,8 +282,8 @@
 }
 
 .footer__menu {
-  padding-left: 35px;
   padding-top: 3px;
+  padding-left: 35px;
 }
 
 /*    пока не пойму зачем это 
