@@ -6,6 +6,8 @@
 }
 
 .header__menu {
+  padding-right: 9px;
+  padding-top: 6px;
   justify-self: center;
   align-self: center;
 }
@@ -43,7 +45,7 @@
 }
 
 .header__logo-image {
-  padding: 0 12.56px 7.37px 11.39px;
+  padding: 0 8px 0px 5px;
 }
 
 .address {
@@ -51,13 +53,15 @@
   font-size: 18px;
   font-style: normal;
   letter-spacing: 0.01em;
+  line-height: 140%;
   text-align: left;
+  
 }
 
 .header__address {
   justify-self: end;
   align-self: center;
-  margin-right: 25px;
+  margin-right: 58px;
 }
 
 .cover {
@@ -176,6 +180,7 @@
 
 .card {
   position: relative;
+  z-index: -2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -277,11 +282,14 @@
   align-items: start;
   margin: 180px 50px 88px 50px;
 }
-/*    пока не пойму зачем это
+
 .footer__menu {
-  
- 
+  padding-left: 35px;
+  padding-top: 3px;
 }
+
+/*    пока не пойму зачем это 
+
 
 .footer__menu-list {
   
